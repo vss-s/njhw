@@ -1,0 +1,31 @@
+{
+  "name": "nodejshomeworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andryxins/nodeJsHomeWorks.git"
+  },
+  "author": "Andrew Khairetdinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andryxins/nodeJsHomeWorks/issues"
+  },
+  "homepage": "https://github.com/andryxins/nodeJsHomeWorks#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.15",
+    "yargs": "^15.3.1"
+  }
+}
